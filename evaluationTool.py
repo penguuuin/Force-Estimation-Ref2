@@ -52,7 +52,7 @@ class EvaluationMatrixGenerator:
 
             else:
                 print ('Get Wrong enviroment')
-                print _degree
+                print (_degree)
 
             if (_bright == '50'):
                 bi = 0
