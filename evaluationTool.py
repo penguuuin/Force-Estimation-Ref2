@@ -74,8 +74,8 @@ class EvaluationMatrixGenerator:
             elif (_material == 'tube'):
                 mi = 3
             else:
-                print 'Get Wrong enviroment'
-                print _material
+                print ('Get Wrong enviroment')
+                print (_material)
 
             mae =GetMAE(_prediction,_groundTruth)
 
