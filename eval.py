@@ -112,7 +112,7 @@ if __name__ =='__main__':
     Load all evaluation data folds
     """
 
-    print config.EVAL_FOLD_PATHS
+    print (config.EVAL_FOLD_PATHS)
     data_manager = util.DataLoader(
         data_fold_paths= config.EVAL_FOLD_PATHS,
         data_shuffle=False,
