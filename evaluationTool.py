@@ -61,8 +61,8 @@ class EvaluationMatrixGenerator:
             elif (_bright == '100'):
                 bi = 2
             else:
-                print 'Get Wrong enviroment'
-                print _bright
+                print ('Get Wrong enviroment')
+                print (_bright)
 
 
             if(_material=='papercup'):
