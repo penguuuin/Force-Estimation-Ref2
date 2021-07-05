@@ -11,7 +11,7 @@ import evaluationTool as evt
 import util
 import config
 import time
-from nets import cnn, rnn
+import cnn, rnn
 
 class Evaluator:
     def __init__(self):
